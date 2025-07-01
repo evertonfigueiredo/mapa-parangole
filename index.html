@@ -39,9 +39,9 @@
             const temCliente = clientes.some(c => c.cidade.toLowerCase() === nomeCidade.toLowerCase());
             return {
               color: "#000",
-              weight: 0.5,
+              weight: 0.2,
               fillColor: temCliente ? "#FFA1CD" : "#fff",
-              fillOpacity: temCliente ? 0.7 : 0.1
+              fillOpacity: temCliente ? 0.9 : 0.1
             };
           },
           onEachFeature: (feature, layer) => {
